@@ -12,43 +12,41 @@
       </nav>
     </header> -->
     <!-- home section design -->
-    <div class="services-container">
+    <!-- <div class="services-container">
       <div class="services-box">
         <img src="/img2.png" class="img-edit mx-auto" />      
       </div>
     </div>
-    <div class="home-img">
-      
-    </div>
+    -->
      <section class="home" id="home">
       <div class="home-content">
         <h3>안녕하십니까?</h3>
         <h1>2024년</h1>
         <h3>대부도 탐조대회를 <span>개최하게 되었습니다.</span></h3>
         <p>이동성 물새들의 계절을 맞아<span> 안산 대부도의 EAAF(동아시아-대양주 철새이동경로)지역</span>의 자연생태를 체험하고 대부도
-           서식지의 이해와 탐조관광의 기회를 확대하고자 하오니 많은 참석 바랍니다.</p>
+           서식지의 이해와 탐조관광의 기회를 확대하고자 하오니 많은 관심부탁드립니다.</p>
         <div class="social-media">
           <NuxtLink class="link-a"><UIcon name="i-mdi-facebook" ></UIcon></NuxtLink>
           <NuxtLink class="link-a"><UIcon name="i-mdi-youtube" ></UIcon></NuxtLink>
           <NuxtLink class="link-a"><UIcon name="i-mdi-twitter"></UIcon></NuxtLink>
           <NuxtLink class="link-a"><UIcon name="i-mdi-instagram"></UIcon></NuxtLink>
         </div>
-        <NuxtLink to="#" class="btn">참석신청</NuxtLink>
+        <NuxtLink to="https://docs.google.com/forms/d/1Sd0uzj4rjhOdu30Y5b53QKHM3bEby9ofmlgWRlJ7OJw/edit?usp=sharing" class="btn">참가신청</NuxtLink>
       </div>
     </section>
     <!-- about section design -->
     
-      <section class="about" id="about">
+      <!-- <section class="about" id="about">
         <div class="about-img">
           <img src="/img1.png" alt="">
         </div>
         <div class="about-content">
           <h2 class="heading">대부도<span>탐조대회</span></h2>
-          <h3>탐조대회신청 접수</h3>
+          <h3>대회신청 접수</h3>
           <p>아래의 내용을 참고 하여 신청해 주시기 바랍니다</p>
-          <!-- <NuxtLink to="#" class="btn">Read More</NuxtLink> -->
+       
         </div>
-      </section>
+      </section> -->
       <!-- services section design -->
        <!-- <section class="services" id="services">
         <h2 class="heading">Our <span>Services</span></h2>
@@ -105,7 +103,7 @@
        <!-- Footer Design -->
         <footer class="footer">
           <div class="footer-text">
-            <p>Cypyright &copy;{{ year }} by Codehal | All Rights Reservied. </p>
+            <p>Cypyright &copy;{{ year }} <span>대부도탐조대회추진위원회</span> </p>
           </div>
           <!-- <div class="footer-iconTop">
             <NuxtLink class="link-top" to=""><UIcon class="link-top-icon w-10 h-10 text-gray-900" name="i-heroicons-arrow-long-up-16-solid" /></NuxtLink>
