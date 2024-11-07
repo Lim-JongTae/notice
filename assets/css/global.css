@@ -32,6 +32,12 @@ section {
   /* min-height: 100vh; */
   padding: 1rem 9% 2rem;
 }
+.img-edit {
+  border: 3xp solid var(--main-color);
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
 .header {
   position: fixed;
   top: 0;
@@ -72,7 +78,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  margin-top: -10rem;
   
 }
 .home-content h3 {
@@ -92,7 +99,7 @@ span {
 }
 .home-img img {
   width: 75vw;
-  animation: floatImage 4s infinite ease-in-out;
+  /* animation: floatImage 4s infinite ease-in-out; */
   
 }
 .home-content p {
@@ -198,7 +205,7 @@ span {
 }
 .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1fr);
   align-items: center;
   gap: 2.5rem;
 }
