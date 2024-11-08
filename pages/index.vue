@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class=" mt-10">
     <!-- <header class="header">
       <NuxtLink to="#" class="logo">Portfolio</NuxtLink>
       <UIcon name="i-mdi-menu" id="menu-icon"/>
@@ -103,7 +103,7 @@
        <!-- Footer Design -->
         <footer class="footer">
           <div class="footer-text">
-            <p>Cypyright &copy;{{ year }} <span>대부도탐조대회추진위원회</span> </p>
+            <p>Copyright &copy;{{ year }} <span>대부도탐조대회추진위원회</span> </p>
           </div>
           <!-- <div class="footer-iconTop">
             <NuxtLink class="link-top" to=""><UIcon class="link-top-icon w-10 h-10 text-gray-900" name="i-heroicons-arrow-long-up-16-solid" /></NuxtLink>
